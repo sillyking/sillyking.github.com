@@ -1,7 +1,7 @@
 .box{
 	width: 400px;
-	border-right:1px solid #ccc;
-	border-top:1px solid #ccc;
+	border-right:2px solid rgb(245,245,245);
+	border-top:2px solid rgb(245,245,245);
 	margin:auto;
 
 }
@@ -17,8 +17,9 @@
 	height:40px;
 	line-height: 40px;
 	text-align:center;
-	background: #EDEDED;
-	border-bottom: 1px solid #ccc;
+	font-family:"微软雅黑";
+	background: rgb(247,247,247);
+	border-bottom: 2px solid rgb(245,245,245);
 }
 .head1{
 	box-sizing: border-box;
@@ -27,125 +28,101 @@
 	height:40px;
 	line-height: 40px;
 	text-align:center;
-	background: #EDEDED;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
-}
-.head2{
-	box-sizing: border-box;
-	float:left;
-	width: 80px;
-	height:40px;
-	line-height: 40px;
-	text-align:center;
-	background: #EDEDED;
-	border-bottom: 1px solid #ccc;
-}
-.head:hover{
 	font-weight: bold;
-	background: white;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-	border-bottom: 0px;
-}
-.head1:hover{
-	font-weight: bold;
-	background: white;
-	border-right: 1px solid #ccc;
-	border-bottom: 0px;
-}
-.head2:hover{
-	font-weight: bold;
-	background: white;
-	border-left: 1px solid #ccc;
-	border-bottom: 0px;
+	border-left: 2px solid rgb(245,245,245);
+	border-right: 2px solid rgb(245,245,245);
 }
 .box-2{
 	width: 400px;
-	height: 100px;
+	height: 110px;
 	overflow:hidden;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	border-bottom: 2px solid rgb(245,245,245);
+	border-left: 2px solid rgb(245,245,245);
 }
 .box-2-1{
 	width: 360px;
-	height:30px;
-	margin:10px auto;
-	border:1px solid black;
-	text-align: center;
+	height:25px;
+	margin-left:15px;
+	margin-top:20px;
+	border:1px solid rgb(120,120,120);
 }
-
+.box-2-2{
+	width: 360px;
+	height:25px;
+	margin-left:15px;
+	margin-top: 10px;
+	border:1px solid rgb(120,120,120);
+}
 .box-3{
 	width: 400px;
-	height: 170px;
+	height: 165px;
 	overflow: hidden;
 	top:10px;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	border-bottom: 2px solid rgb(245,245,245);
+	border-left: 2px solid rgb(245,245,245);
 }
 .box-3-1{
 	width: 400px;
 	height: 100px;
 	overflow: hidden;
-	margin:10px;
+	margin-top: 10px;
+	margin-left: 15px;
 }
 .box-3-1-1{
 	width:90px;
 	height:90px;
-	border-radius: 50%;
-	border: 1px solid #ccc;
-	background:#ff4500;
+	background:rgb(255,68,0);
 	float:left;
 }
 .box-3-1-2{
-	width: 260px;
-	height: 30px;
-	margin:10px;
+	width: 255px;
+	height:25px;
+	margin-left:10px;
+	margin-top:10px;
 	float:left;
-	border: 1px solid black;
+	border: 1px solid rgb(120,120,120);
 }
 .box-3-2{
 	width:400px;
 	height:50px;
 }
 .box-3-2-1{
-	width: 100px;
-	height: 30px;
+	width: 120px;
+	height: 35px;
 	float:left;
-	margin-left:25px;
+	margin-left:20px;
 	color: white;
 	text-align: center;
-	border-radius:4px;
-	line-height: 30px;
-	background:#ff4500;
+	border-radius:2px;
+	line-height: 35px;
+	font-family:"微软雅黑";
+	background:rgb(255,68,0);
 	transition:all 0.5s ease;
 }
-.box-3-2-1:hover{
-	width: 100px;
-	height: 30px;
+.box-3-2-2{
+	width: 110px;
+	height: 35px;
 	float:left;
-	margin-left:25px;
-	color: #ff4500;
+	margin-left:10px;
+	color: white;
 	text-align: center;
-	border-radius:4px;
-	line-height: 30px;
-	background:#ccc;
-	transform: scale(1.2);
+	border-radius:2px;
+	line-height: 35px;
+	background:rgb(255,68,0);
+	transition:all 0.5s ease;
 }
-
 .box-4{
 	width: 400px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	height:60px;
+	overflow: hidden;
+	border-bottom: 2px solid rgb(245,245,245);
+	border-left: 2px solid rgb(245,245,245);
 }
 .box-4-1{
 	width: 360px;
-	height:30px;
-	border:1px solid black;
+	height:25px;
+	margin:15px;
+	border:1px solid rgb(120,120,120)
 }
 .box-5{
 	width: 400px;
@@ -153,54 +130,39 @@
 }
 .box-5-1{
 	box-sizing: border-box;
-	width: 40%;
-	height: 66.6%;
+	width: 160px;
+	height: 200px;
 	text-align: center;
 	float: left;
-	color:#A1A1A1;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
-}
-.box-5-1:hover{
-	box-sizing: border-box;
-	width: 40%;
-	height: 66.6%;
-	text-align: center;
-	float: left;
-	color:#ff4500;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	color:rgb(144,144,144);
+	font-family:"微软雅黑";
+	border-bottom: 2px solid rgb(245,245,245);
+	border-left: 2px solid rgb(245,245,245);
 }
 .box-5-2{
 	box-sizing: border-box;
-	width: 20%;
-	height: 33.3%;
+	width: 80px;
+	height: 100px;
 	text-align: center;
 	float: left;
-	color: #A1A1A1;
-	border-left:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-}
-.box-5-2:hover{
-	box-sizing: border-box;
-	width: 20%;
-	height: 33.3%;
-	text-align: center;
-	float: left;
-	color:#ff4500;
-	border-left:1px solid #ccc;
-	border-bottom:1px solid #ccc;
+	color: rgb(144,144,144);
+	font-family:"微软雅黑";
+	border-left:1px solid rgb(245,245,245);
+	border-bottom:1px solid rgb(245,245,245);
 }
 .box-5-2-1{
-	width:50%;
-	height:60%;
-	margin: 15% auto;
-	background:#ff4500;
+	width:35%;
+	height:45%;
+	margin:auto;
+	margin-top:25%;
+	margin-bottom: 10%;
+	background:rgb(255,68,0);
 }
 
 .box-5-2-2{
 	width: 60%;
 	height: 50%;
-	margin: 15% auto;
-	background:#ff4500;
+	margin: 10% auto;
+	margin-top: 15%;
+	background:rgb(255,68,0);
 }
