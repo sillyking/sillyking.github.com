@@ -8,6 +8,7 @@ body{
 	align-items: center;
 }
 .ui-mainfir{
+	position: absolute;
 	box-sizing: border-box;
 	width:630px;
 	height:250px;
