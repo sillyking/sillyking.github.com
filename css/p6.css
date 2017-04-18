@@ -109,11 +109,13 @@ body{
 }
 
 .ui-mainthi-list{
-	width: 580px;
+/*	width: 580px;
 	height: 450px;
 	display: flex;
 	flex-direction:column;
-	align-items: center;
+	align-items: center;*/
+	flex:1;
+	overflow: auto;
 }
 .ui-mainthi-list>div{
 	margin-top:10px; 
@@ -140,6 +142,7 @@ body{
 	justify-content:center;
 	align-items: center;
 	border-left: 1px solid black;
+	cursor: pointer;
 }
 .ui-mainthi-addbtn{
 	width: 580px;
@@ -158,4 +161,5 @@ body{
 	flex-direction: column;
 	justify-content:center;
 	align-items: center;
+	cursor: pointer;
 }
