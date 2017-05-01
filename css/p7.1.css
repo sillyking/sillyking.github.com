@@ -1,0 +1,451 @@
+
+.container-hd{
+	height: 65px;
+	background:rgb(0,194,174);
+	outline: 2px solid rgb(31,153,141);
+}
+.row-hd{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 65px;
+	background:rgb(0,194,174);
+}
+.row-hd div{
+	color: white;
+	height: 40px;
+}
+.row-hd-left{
+	display: flex;
+	flex-direction: row;
+}
+.row-hd-left:before {
+	content: "xx";
+	font-size: 180%;
+}
+.row-hd-left:after{
+	font-family:'FontAwesome'; 
+	font-size:140%;
+	padding: 5px;
+	opacity: 0.5;
+	content: "\f107";
+	margin-top: 4px;
+}
+.row-hd-mid{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 4px;
+	font-size: 160%;
+	background: rgba(0,0,0,0.15);
+}
+.row-hd-mid:before{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family:'FontAwesome'; 
+	content: "\f002";
+	font-size: 80%;	
+	padding: 5px;
+	margin-top: 5px;
+}
+.row-hd-mid:after{
+	content: "xxxxxxx";
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 4px;
+	font-size: 100%;
+	opacity: .5;
+}	
+.row-hd-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 120%;
+}
+.row-hd-right:before{
+	font-family:'FontAwesome'; 
+	content: "\f007";
+	font-size: 180%;
+}
+.row-hd-right:after{
+	content: "xx";
+	font-size: 120%;
+	margin-top:-12px;	
+}
+
+/*-----------------------------------------*/
+.container-bd{
+	display: flex;
+	flex-direction: column;
+	height: 225px;
+}
+.row-bd-top{
+	height: 75px;
+	margin-top: 10px;
+}
+.row-bd-mid{
+	height: 75px;
+	margin-top: 30px;
+}
+.row-bd-bottom{
+	height: 35px;
+}
+.row-bd-top div ,.row-bd-mid div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 75px;
+}
+.row-bd-top-c1:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(255,137,5);
+	background: rgb(255,102,64);
+	background: rgb(122,137,146);
+	background: rgb(255,187,83);
+}
+.row-bd-top-c2:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(255,102,64);
+}
+.row-bd-top-c3:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(122,137,246);
+}
+.row-bd-top-c4:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(255,137,5);
+}
+.row-bd-mid-c1:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(0,205,247);
+}
+.row-bd-mid-c2:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(255,187,83);
+}
+.row-bd-mid-c3:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(0,205,247);
+}
+.row-bd-mid-c4:before{
+	content:"";
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(255,137,5);
+}
+.row-bd-top div:after,.row-bd-mid div:after{
+	content:"xx";
+	margin-top:5px;
+}
+
+
+/*--------------------------------------------*/
+.container-msg{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:340px;
+	background:rgb(241,240,237);
+	border-top:1px solid rgb(227,220,212);
+	border-bottom:1px solid rgb(227,220,212);
+}
+.row-msg-top{
+	box-sizing: border-box;
+	padding: 10px;
+	height: 200px;
+	background: white;
+	border-top:1px solid rgb(227,220,212);
+	border-bottom:1px solid rgb(227,220,212);
+}
+.msg-top-left{
+	display: flex;
+	flex-direction: column;
+	height:180px;
+	border-right:1px solid rgb(227,220,212);
+}
+.msg-top-left:before{
+	content:"xxxx";
+	color:rgb(18,168,10);
+	font-size: 160%;
+}
+.msg-top-left:after{
+	content:"";
+	height: 110px;
+	width: 110px;
+	margin-top:10px;
+	background: rgb(102,102,102);
+	border:1px solid rgb(158,158,158);
+}
+.msg-top-right-up{
+	height: 90px;
+	border-bottom:1px solid rgb(227,220,212);
+}
+.msg-top-right-upl{
+	display: flex;
+	flex-direction: column;
+	height: 90px;
+}
+.msg-top-right-upl:before{
+	content:"xxxx";
+	color: rgb(255,55,0);
+	font-size:160%;
+}
+.msg-top-right-upl:after{
+	content: "xxxxxxxxx";
+}
+.msg-top-right-upr{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.msg-top-right-upr:after{
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: rgb(102,102,102);
+	border:1px solid rgb(158,158,158);
+}
+.msg-top-right-downl{
+	display: flex;
+	flex-direction: column;
+	height: 90px;
+	border-right:1px solid rgb(227,220,212);
+}
+.msg-top-right-downl:before{
+	content: "xxxx";
+	font-size: 160%;
+	color: rgb(255,74,168);
+}
+
+.msg-top-right-downl:after{
+	align-self: center;
+	content: "";
+	width: 50px;
+	height: 50px;
+	background: rgb(102,102,102);
+	border:1px solid rgb(158,158,158);
+}
+.msg-top-right-downr{
+	display: flex;
+	flex-direction: column;
+	height: 90px;
+}
+.msg-top-right-downr:before{
+	content: "xxxx";
+	font-size: 160%;
+	color: rgb(255,136,0);
+}
+.time{
+	display:flex;
+	flex-direction: row;
+	margin-top: 10px;
+	width: 100px;
+	height: 20px;
+}
+.hour,.minute,.second{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 20px;
+	border-radius:4px;
+	color:white;
+	background: rgb(75,75,75);
+}
+.symbol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 5px;
+	height: 20px;
+	color: rgb(75,75,75);
+}
+.row-msg-bottom{
+	height: 95px;
+	background: white;
+	border-top:1px solid rgb(227,220,212);
+	border-bottom:1px solid rgb(227,220,212);
+}
+.row-msg-bottom>div{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	height: 94px;
+}
+.msg-bottom-lo:before{
+	margin-left: 10px;
+	content: "xxxx";
+	font-size: 160%;
+	color: rgb(255,136,0);
+}
+.msg-bottom-lo:after,.msg-bottom-lt:after{
+	margin-left: 10px;
+	content: "xxxxxxxxx";
+}
+.msg-bottom-lt{
+	border-left:1px solid rgb(227,220,212);
+}
+.msg-bottom-lt:before{
+	margin-left: 10px;
+	content: "xxxx";
+	font-size: 160%;
+	color: rgb(255,136,0);
+}
+.msg-bottom-r:before{
+	margin-left: 10px;
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: rgb(102,102,102);
+	border:1px solid rgb(158,158,158);
+}
+/*-------------------------------------------------*/
+.container-list{
+	height: 570px;
+	padding-left: 30px;
+}
+
+.row-list-hd:before{
+	content:"xxxx";
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 160%;
+	height: 50px;
+}
+.row-list{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	height: 130px;
+	border-top:1px solid rgb(227,220,212);
+}
+.row-list-l{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(135deg,rgb(102,102,102) 15%,
+		rgb(0,194,174) 0,rgb(0,194,174) 30%,
+		rgb(102,102,102) 0);
+}
+.row-list-l-none{
+	width: 100px;
+	height: 100px;
+	background: rgb(102,102,102);
+}
+.row-list-l:after{
+	content: "免预约";
+	color:white;
+	display: block;
+	margin-left: -20px;
+	margin-top: -5px;
+	transform: rotate(-45deg);
+}
+.row-list-r{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.list-r-top>div{
+	display: flex;
+	flex-direction: column;
+}
+.list-r-top>div:before{
+	content: "xxxx";
+	font-size: 160%;
+}
+.list-r-top>div:after{
+	content: "xxxxxxxxxxxxxxxxxx";
+}
+.list-r-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.list-r-bottom-price,.list-r-bottom-price-none,.list-r-bottom-price-nonet{
+	color:rgb(0,194,174); 
+}
+.list-r-bottom-price:before{
+	content:"xx"; 
+	font-size: 200%;
+	color:rgb(0,194,174); ;
+}
+.list-r-bottom-price-none:before{
+	content:"xx"; 
+	font-size: 200%;
+	color:rgb(0,194,174); ;
+}
+.list-r-bottom-price-nonet:before{
+	content:"xxx"; 
+	font-size: 200%;
+	color:rgb(0,194,174); ;
+}
+.list-r-bottom-price:after{
+	margin-left:10px; 
+	content:"多优惠+";
+	border-radius: 3px;
+	border: 1px solid rgb(255,154,0);
+	color:rgb(255,174,51);
+}
+.list-r-bottom-price-none:after{
+	margin-left:10px; 
+	content:"门市价:XX元";
+	color: black;
+}
+.list-r-bottom-price-nonet:after{
+	margin-left:10px; 
+	content:"门市价:XX元";
+	color: black;
+}
+.list-r-bottom-sale{
+	display: flex;
+	flex-direction:row;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+/*-----------------------------------------------------*/
+.container-bottom{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	font-size: 160%;
+	color:rgb(3,178,207);
+	background: rgb(143,198,234);
+}
+.container-bottom:before{
+	content: "xxxxxx";
+}
+.container-bottom:after{
+	font-family:'FontAwesome'; 
+	content: "\f105";
+}
